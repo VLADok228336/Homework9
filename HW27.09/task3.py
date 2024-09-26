@@ -10,3 +10,8 @@ def matrix():
 
 
     summa = 0
+    for i in k:
+        if sum(i)>summa:
+            summa = sum(i)
+    return summa
+# print(matrix())
